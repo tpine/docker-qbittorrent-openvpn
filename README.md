@@ -1,4 +1,6 @@
-# OpenVPN and Transmission with WebUI
+# OpenVPN and QBittorent with WebUI
+
+Early fork of [docker-transmission-openvpn](https://github.com/haugene/docker-transmission-openvpn/) with transmission replaced with qbittorrent.
 
 [![CircleCI builds](https://img.shields.io/circleci/build/github/haugene/docker-transmission-openvpn)](https://circleci.com/gh/haugene/docker-transmission-openvpn)
 [![Docker Pulls](https://img.shields.io/docker/pulls/haugene/transmission-openvpn.svg)](https://hub.docker.com/r/haugene/transmission-openvpn/)

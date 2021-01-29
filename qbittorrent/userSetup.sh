@@ -54,7 +54,7 @@ fi
 
 echo "
 -------------------------------------
-Transmission will run as
+qBittorrent will run as
 -------------------------------------
 User name:   ${RUN_AS}
 User uid:    $(id -u ${RUN_AS})

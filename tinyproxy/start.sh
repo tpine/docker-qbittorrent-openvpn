@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source our persisted env variables from container startup
-. /etc/transmission/environment-variables.sh
+. /etc/qbittorrent/environment-variables.sh
 
 find_proxy_conf()
 {
