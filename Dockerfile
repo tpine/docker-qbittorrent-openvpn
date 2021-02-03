@@ -4,6 +4,10 @@ FROM alpine:3.13
 VOLUME /data
 VOLUME /config
 
+ENV HOME="/config" \
+	XDG_CONFIG_HOME="/config" \
+	XDG_DATA_HOME="/config"
+
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
 	&& echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
 	&& apk --no-cache add bash dumb-init ip6tables ufw@community openvpn shadow \
